@@ -1,4 +1,4 @@
-.hero{
+.hero {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -7,21 +7,21 @@
 
 .circle-image {
     width: 250px;
-    height: 250px; 
+    height: 250px;
     border-radius: 50%;
-    object-fit: cover; 
+    object-fit: cover;
     margin-top: 100px;
 }
 
-.hero h1{
+.hero h1 {
     text-align: center;
     width: 70%;
     font-size: 50px;
     font-weight: 600;
 }
 
-.hero h1 span{
-    background: linear-gradient(270deg, #DF8908 10% , #B415FF 100%);
+.hero h1 span {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -34,7 +34,7 @@
     line-height: 40px;
 }
 
-.hero-action{
+.hero-action {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -43,23 +43,85 @@
     margin-bottom: 50px;
 }
 
-.hero-connect{
+.hero-connect {
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09% , #B415FF 106.28%);
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
     cursor: pointer;
 }
-.hero-connect:hover{
+
+.hero-connect:hover {
     border: 2px solid white;
 }
 
-.hero-resume{
+.hero-resume {
     padding: 20px 70px;
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
 }
-.hero-resume:hover{
-    border-color: #B415FF; 
+
+.hero-resume:hover {
+    border-color: #B415FF;
 }
 
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cv-viewer {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+.download-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #45a049;
+}
