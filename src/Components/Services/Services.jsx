@@ -17,10 +17,10 @@ const Services = () => {
             <h3>{s.s_no}</h3>
             <h2>{s.s_name}</h2>
             <p>{s.s_desc}</p>
-            <div className="services-readmore">
+            {/* <div className="services-readmore">
                 <p>Read More</p>
                 <img src={arrow} alt="" />
-            </div>
+            </div> */}
         </div>
        })}
       </div>
