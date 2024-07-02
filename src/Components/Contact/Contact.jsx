@@ -25,6 +25,11 @@ function Contact() {
         },
         body: json
       });
+
+      if (!res.ok) {
+        throw new Error(`Server error: ${res.status}`);
+      }
+
       const result = await res.json();
 
       if (result.success) {
@@ -33,6 +38,7 @@ function Contact() {
         alert("There was an error submitting the form.");
       } 
     } catch (error) {
+      console.error("Error submitting the form:", error);
       alert("There was an error submitting the form.");
     }
   };
