@@ -16,9 +16,8 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-            <p>I am a punctual and motivated MERN Stack Developer with a keen eye for detail and a passion for building innovative web applications.</p>
-            <p>I excel in problem-solving, collaboration, and continuous learning. My expertise extends to developing scalable applications, optimizing performance, and ensuring responsive design.</p>
-            <p>I am eager to contribute to cutting-edge projects and thrive in dynamic, fast-paced environments.</p>
+            <p>I am a punctual and motivated MERN Stack Developer with a passion for building innovative web applications. I excel in problem-solving, collaboration, and continuous learning, with expertise in developing scalable, responsive applications. I thrive in dynamic, fast-paced environments and am eager to contribute to cutting-edge projects.</p>
+
             </div>
             <div className="about-skills">
                 <div className='about-skill'><p>HTML & CSS</p> <hr style={{width: '60%'}} /></div>

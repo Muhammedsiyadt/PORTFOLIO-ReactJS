@@ -16,8 +16,8 @@
     font-size: 60px;
     font-weight: 600;
 }
-.image{
-    width: 500px;
+.about-left img{
+    width: 400px;
 }
 
 .about-title img{
@@ -78,4 +78,43 @@
 .about-skill:hover{
     transform: scale(1.05);
     transition: 0.3s;
+}
+
+@media(max-width:768px){
+    .about{
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .about-title h1{
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        padding: 0;
+    }
+    .about-title img{
+        width: 130px;
+        right: -20px; 
+    }
+    .about-sections{
+        flex-direction: column;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-para{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .about-skill{
+        gap: 20px;
+        align-items: center;
+    }
+    .about-skill p{
+        font-size: 20px;
+    }
+    .about-skill hr{
+        height: 6px;
+    }
+    
 }
